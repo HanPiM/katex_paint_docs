@@ -1,0 +1,13 @@
+$
+\def\w{100pt}\def\h{61pt}
+\def\arcoffest{54.7pt}
+\color{#bebebe}
+\rule[-3pt]{0.5pt}{\h}\kern{-1.2pt}
+\raisebox{\arcoffest}{◜}\kern{-5pt}
+\rule[\h]{\w}{0pt}
+\kern{-4.5pt}\raisebox{\arcoffest}{◝}\kern{-1pt}
+\rule[-3pt]{0.5pt}{\h}\kern{-\w}
+\kern{-6.9pt}\raisebox{-6pt}{◟}\kern{-5pt}
+\rule[-6pt]{\w}{0pt}\kern{-4.3pt}
+\raisebox{-6pt}{◞}\kern{-0.5pt}
+$

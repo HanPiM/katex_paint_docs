@@ -1,0 +1,91 @@
+site_name: KaTeX 绘图指北
+theme:
+  language: zh
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+    - content.code.annotate # 代码注释
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/weather-sunny
+        name: "切换至日间模式"
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      toggle:
+        icon: material/weather-night
+        name: "切换至夜间模式"
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/HanPiM
+    - icon: luogu_favicon
+      link: https://www.luogu.com.cn/user/361078
+
+plugins:
+  - search
+  #- git-revision-date
+
+markdown_extensions:
+  - meta
+  - admonition
+  - pymdownx.details # 使 admonition 块可折叠
+  - footnotes
+  - toc:
+      permalink: true
+      permalink_title: "指向本节的链接"
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+      - name: mermaid # 使用流程图
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true # 使内容可以分组
+  - pymdownx.betterem
+  - pymdownx.arithmatex:
+      generic: true
+
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+
+# katex
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex/dist/contrib/auto-render.min.js
+
+# repo_url: https://github.com/HanPiM/hpjson
+# repo_name: HanPiM/hpjson
+
+# 内容
+
+nav:
+  - 简介: index.md
+  - 基础: main/basic.md
+  - 绘制: main/draw.md
+  - 与 MD 结合: main/withlink.md
+  - 附录:
+    - 讨论区无法使用的命令: appendix/A.md
+    - 其他样例: appendix/B.md
+    - 高亮代码: appendix/C.md
+    - KaTeX 单位（转pt）: appendix/D.md
+    - 参考资料: appendix/references.md
+    - 更新日志与计划事项: appendix/changes.md

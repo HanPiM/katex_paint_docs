@@ -1,0 +1,113 @@
+$
+\def\notew{200pt}
+\def\noteh{44pt}
+\def\notetitlepos{24pt}
+\def\notetitleh{20pt}
+\def\noteSetT#1{
+  \def\notetitle{\textsf{\textbf{#1}}}
+}
+% 标题如果不是两字则需要调整
+\def\notetitleoffest{37pt}
+\def\noteNote{
+  \def\notech{\kern{-1.5pt}✒\kern{0.5pt}}
+  \noteSetT{注意}
+  \def\notelcol{#448AFF}\def\notetcol{#ECF3FF}
+}
+\def\noteAbstract{
+  \def\notech{\kern{-2pt}\char"d83d\char"ddd2\kern{1.5pt}}
+  \noteSetT{摘要}
+  \def\notelcol{#00B0FF}\def\notetcol{#E5F7FF}
+}
+\def\noteInfo{
+  \def\notech{\kern{2pt}\bf{i}\kern{5.5pt}}
+  \noteSetT{信息}
+  \def\notelcol{#00B8D4}\def\notetcol{#E5F8FB}
+}
+\def\noteTip{
+  \def\notech{\kern{-5pt}\char"d83d\char"dca1}
+  \noteSetT{提示}
+  \def\notelcol{#00BFA5}\def\notetcol{#E5F8F6}
+}
+\def\noteOk{
+  \def\notech{\kern{-2.0pt}\bf{√}\kern{2.4pt}}
+  \noteSetT{示例\kern{-0.5pt}}
+  \def\notelcol{#00C853}\def\notetcol{#E5F9ED}
+}
+\def\noteQ{
+  \def\notech{\kern{0.5pt}\textbf{?}\kern{4.5pt}}
+  \noteSetT{问题}
+  \def\notelcol{#64DD17}\def\notetcol{#EFFCE7}
+}
+\def\noteWarn{
+  \def\notech{\kern{-1pt}⚠\kern{2.8pt}}
+  \noteSetT{警告}
+  \def\notelcol{#FF9100}\def\notetcol{#FFF4E5}
+}
+\def\noteFail{
+  \def\notech{\kern{-2.4pt}\Large\bf{×}\kern{1.6pt}}
+  \noteSetT{失败}
+  \def\notelcol{#FF5252}\def\notetcol{#FFEDED}
+}
+\def\noteDanger{
+  \def\notech{\kern{-5pt}⚡}
+  \noteSetT{危险}
+  \def\notelcol{#FF1744}\def\notetcol{#FFE7EC}
+}
+\def\noteBug{
+  \def\notech{\kern{-4.5pt}\char"d83d\char"dc1e\kern{-0.5pt}}
+  \noteSetT{错误}
+  \def\notelcol{#F50057}\def\notetcol{#FEE5EE}
+}
+\def\noteCite{
+  \def\notech{\kern{1pt}\textbf{"}\kern{3.2pt}}
+  \noteSetT{引述}
+  \def\notelcol{#9E9E9E}\def\notetcol{#F5F5F5}
+}
+\noteCite
+\def\noteinfo{}
+\def\drawnote{
+% 画框和阴影
+\color{\notelcol}
+\rule{2pt}{\noteh}
+\color{\notetcol}
+\rule[\notetitlepos]{\notew}{\notetitleh}
+\color{#e8e8e8}\rule{0.5pt}{\noteh}
+\color{#f5f5f5}\rule{0.5pt}{\noteh}
+\color{#fafafa}\rule{0.5pt}{\noteh}
+\kern{-\notew}\kern{-1.5pt}
+\def\drawx#1#2{\color{#1}\rule[#2]{\notew}{0pt}\kern{-\notew}}
+\drawx{#bfbfbf}{0pt}
+\drawx{#d6d6d6}{-0.5pt}
+\drawx{#ececec}{-1.0pt}
+\drawx{#f8f8f8}{-1.5pt}
+\color{black}
+% 画标题
+\raisebox{\notetitlepos}{
+  \raisebox{6pt}{
+    \kern{-1pt}
+    \color{\notelcol}\large{\notech}
+    \raisebox{1.5pt}{
+      \color{#404040}\footnotesize
+      \kern{-4pt}\notetitle
+    }
+  }
+}
+\kern{-\notetitleoffest}%如果在下一个行内公式写文字，则该数值只需要设为极大值即可
+% 也这里在这里直接放置内容，但需要使用 raisebox
+\raisebox{10pt}{
+  \footnotesize
+  \sf{其实是复刻 Collapsible Blocks。}
+}
+}% note 结束
+\noteNote\drawnote\newline
+\noteAbstract\drawnote\newline
+\noteInfo\drawnote\newline
+\noteTip\drawnote\newline
+\noteOk\drawnote\newline
+\noteQ\drawnote\newline
+\noteWarn\drawnote\newline
+\noteFail\drawnote\newline
+\noteDanger\drawnote\newline
+\noteBug\drawnote\newline
+\noteCite\drawnote\newline
+$

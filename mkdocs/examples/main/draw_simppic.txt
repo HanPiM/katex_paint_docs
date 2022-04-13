@@ -1,0 +1,17 @@
+$
+\newcommand{\x}{0}\newcommand{\bitsize}{2mm}\newcommand{\b}[1]{\color{#1}\rule[\x mm]{\bitsize}{\bitsize}}\newcommand{\bw}{\bitsize}\newcommand {\w}{26mm}\newcommand{\rx}[1]{\renewcommand{\x}{#1}}
+\newcommand{\k}{\kern{-\w}}
+\b{#281e0b}\b{#281e0b}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}
+\k\rx{2}\b{#493615}\b{#896727}\b{#281e0b}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}
+\k\rx{4}\b{#fff}\b{#493615}\b{#684e1e}\b{#281e0b}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}
+\k\rx{6}\b{#fff}\b{#fff}\b{#493615}\b{#896727}\b{#281e0b}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#181818}\b{#fff}
+\k\rx{8}\b{#fff}\b{#fff}\b{#fff}\b{#493615}\b{#684e1e}\b{#281e0b}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#181818}\b{#fff}\b{#181818}
+\k\rx{10}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#493615}\b{#896727}\b{#281e0b}\b{#fff}\b{#fff}\b{#fff}\b{#181818}\b{#d8d8d8}\b{#181818}
+\k\rx{12}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#493615}\b{#684e1e}\b{#281e0b}\b{#fff}\b{#fff}\b{#181818}\b{#c1c1c1}\b{#181818}
+\k\rx{14}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#493615}\b{#896727}\b{#281e0b}\b{#fff}\b{#181818}\b{#c1c1c1}\b{#181818}
+\k\rx{16}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#493615}\b{#684e1e}\b{#281e0b}\b{#c1c1c1}\b{#d8d8d8}\b{#181818}
+\k\rx{18}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#493615}\b{#d8d8d8}\b{#c1c1c1}\b{#181818}\b{#fff}
+\k\rx{20}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#444}\b{#181818}\b{#181818}\b{#181818}\b{#c1c1c1}\b{#c1c1c1}\b{#896727}\b{#281e0b}\b{#fff}
+\k\rx{22}\b{#fff}\b{#fff}\b{#fff}\b{#444}\b{#fff}\b{#d8d8d8}\b{#c1c1c1}\b{#c1c1c1}\b{#d8d8d8}\b{#444}\b{#493615}\b{#684e1e}\b{#fff}
+\k\rx{24}\b{#fff}\b{#fff}\b{#fff}\b{#fff}\b{#444}\b{#444}\b{#444}\b{#444}\b{#444}\b{#fff}\b{#fff}\b{#fff}\b{#fff}
+$

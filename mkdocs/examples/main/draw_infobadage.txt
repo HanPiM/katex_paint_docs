@@ -1,0 +1,17 @@
+$
+% #1 宽度 #2 文字 #3 颜色
+\def\infobadage#1#2#3{
+    {\color{#3}
+    \LARGE\bullet
+    \kern{-3.7pt}
+    \rule[1pt]{#1}{6.5pt}
+    \kern{-3.7pt}
+    \LARGE\bullet}
+    \kern{-#1}\kern{-5.9pt}
+    \color{white}
+    \raisebox{2.4pt}{\tiny\textsf{#2}}
+}
+\infobadage{17.2pt}{114514}{FA5151}\quad
+\infobadage{20pt}{1919810}{FA5151}\quad
+\infobadage{18.2pt}{abcdefg}{FA5151}
+$
