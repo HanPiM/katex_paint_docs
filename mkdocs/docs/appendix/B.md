@@ -40,6 +40,20 @@
 
 心形部分代码由 [生成器（已停止更新）](https://github.com/HanPiM/katex_complex_img_generator) 制作。
 
+### €€￡ Logo
+
+=== "演示"
+
+    --8<-- "examples/appendix/B_CCFlogo.txt"
+
+=== "源码"
+    ```latex
+    --8<-- "examples/appendix/B_CCFlogo.txt"
+    ```
+
+!!! note ""
+    ~~为了防止被 D，说一下，~~ €€￡团里那个就是我画的：[洛谷-画了个协会标志](https://www.luogu.com.cn/discuss/415288)
+
 ### 像素画 - 钟
 
 === "演示"
