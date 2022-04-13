@@ -72,8 +72,8 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js
   - https://cdn.jsdelivr.net/npm/katex/dist/contrib/auto-render.min.js
 
-# repo_url: https://github.com/HanPiM/hpjson
-# repo_name: HanPiM/hpjson
+repo_url: https://github.com/HanPiM/katex_paint_docs
+repo_name: HanPiM/katex_paint_docs
 
 # 内容
 

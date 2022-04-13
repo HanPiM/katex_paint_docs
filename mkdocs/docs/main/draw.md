@@ -108,4 +108,4 @@ $
     --8<-- "examples/main/draw_simppic.txt"
     ```
 
-[生成器](/appendix/B/#-)
+[生成器](../../appendix/B/#-)
