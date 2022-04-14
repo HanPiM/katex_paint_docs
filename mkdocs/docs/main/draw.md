@@ -38,7 +38,7 @@
 
     </div>
 
-    [复杂示例](../../appendix/B/#-_1)
+    [复杂示例](../../appendix/other_examples/#-_1)
 
 ??? example "例-简单提示框"
 
@@ -109,4 +109,4 @@ $
     --8<-- "examples/main/draw_simppic.txt"
     ```
 
-[生成器](../../appendix/B/#-)
+[生成器](../../appendix/other_examples/#-)

@@ -13,7 +13,7 @@
     
     
       
-        <title>讨论区无法使用的命令 - KaTeX 绘图指北</title>
+        <title>KaTeX 单位（转pt） - KaTeX 绘图指北</title>
       
     
     
@@ -65,7 +65,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#a-" class="md-skip">
+        <a href="#d-katex-pt" class="md-skip">
           跳转至
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              讨论区无法使用的命令
+              KaTeX 单位（转pt）
             
           </span>
         </div>
@@ -248,7 +248,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="./" class="md-tabs__link md-tabs__link--active">
+      <a href="../cmd_cantuse/" class="md-tabs__link md-tabs__link--active">
         附录
       </a>
     </li>
@@ -393,6 +393,34 @@
               
   
   
+  
+    <li class="md-nav__item">
+      <a href="../cmd_cantuse/" class="md-nav__link">
+        讨论区无法使用的命令
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../highlight_code/" class="md-nav__link">
+        高亮代码
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
     
   
   
@@ -405,7 +433,7 @@
       
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        讨论区无法使用的命令
+        KaTeX 单位（转pt）
       </a>
       
     </li>
@@ -419,36 +447,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../B/" class="md-nav__link">
+      <a href="../f__k_discuss/" class="md-nav__link">
+        炸帖
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../other_examples/" class="md-nav__link">
         其他样例
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../C/" class="md-nav__link">
-        高亮代码
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../D/" class="md-nav__link">
-        KaTeX 单位（转pt）
       </a>
     </li>
   
@@ -519,30 +533,72 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/HanPiM/katex_paint_docs/edit/master/docs/appendix/A.md" title="编辑此页" class="md-content__button md-icon">
+<a href="https://github.com/HanPiM/katex_paint_docs/edit/master/docs/appendix/katex_unit.md" title="编辑此页" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
 
 
-<h1 id="a-">附 A - 讨论区无法使用的命令<a class="headerlink" href="#a-" title="指向本节的链接">&para;</a></h1>
-<p>讨论区的 LaTeX 版本与剪贴板和博客不同。请注意以下：</p>
-<ul>
-<li>
-<p>宏定义类</p>
-<p>包括但不限于 <code>\def \newcommand...</code></p>
-<p>均无法使用。</p>
-</li>
-<li>
-<p>换行类</p>
-<p><code>\\ \cr \newline</code></p>
-<p>无法直接使用，但可在 <code>array gathered</code> 等排版环境下使用</p>
-</li>
-<li>
-<p>其他</p>
-<p><code>\char</code> : 无法使用</p>
-</li>
-</ul>
+<h1 id="d-katex-pt">附 D - KaTeX 单位（转pt）<a class="headerlink" href="#d-katex-pt" title="指向本节的链接">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th>KaTeX 单位</th>
+<th>值</th>
+<th>KaTeX 单位</th>
+<th>值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>em</td>
+<td>CSS em</td>
+<td>bp</td>
+<td><span class="arithmatex">\(\frac{1}{72}\text{inch}\times F \times G=\frac{72.27}{72}\text{pt}\)</span></td>
+</tr>
+<tr>
+<td>ex</td>
+<td>CSS ex</td>
+<td>pc</td>
+<td><span class="arithmatex">\(12\text{ pt}\)</span></td>
+</tr>
+<tr>
+<td>mu</td>
+<td><span class="arithmatex">\(\dfrac{1}{18}\)</span> CSS em</td>
+<td>dd</td>
+<td><span class="arithmatex">\(\dfrac{1238}{1157}\text{pt}\)</span></td>
+</tr>
+<tr>
+<td>pt</td>
+<td><span class="arithmatex">\(\frac{1}{72.27} \text{inch}\times F \times G\Rightarrow1\text{ inch}=\frac{72.27\text{ pt}}{F\times G}\)</span></td>
+<td>cc</td>
+<td><span class="arithmatex">\(\dfrac{14856}{1157}\text{pt}\)</span></td>
+</tr>
+<tr>
+<td>mm</td>
+<td><span class="arithmatex">\(1\text{mm}\times F \times G=\dfrac{1}{100}\text{cm}=\dfrac{7227}{25400}\text{pt}\)</span></td>
+<td>nd</td>
+<td><span class="arithmatex">\(\dfrac{685}{642}\text{pt}\)</span></td>
+</tr>
+<tr>
+<td>cm</td>
+<td><span class="arithmatex">\(1\text{ cm}\times F \times G=\dfrac{7227}{254}\text{ pt}\quad(1\text{ cm}=\dfrac{1}{2.54}\text{inch})\)</span></td>
+<td>nc</td>
+<td><span class="arithmatex">\(\dfrac{1370}{107}\text{pt}\)</span></td>
+</tr>
+<tr>
+<td>in</td>
+<td><span class="arithmatex">\(1\text{ inch}\times F \times G=72.27\text{ pt}\)</span></td>
+<td>sp</td>
+<td><span class="arithmatex">\(\dfrac{1}{65536}\text{pt}\)</span></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">附注</p>
+<p>未找到 px 的官方说明，但实际测试表明其应与 bp 等价。</p>
+<p><span class="arithmatex">\(\tt 20px: \rule{20px}{20px}\quad 20bp: \rule{20bp}{20bp}\)</span></p>
+</div>
 
               
             </article>
@@ -556,7 +612,7 @@
     <nav class="md-footer__inner md-grid" aria-label="页脚">
       
         
-        <a href="../../main/withlink/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 与 MD 结合" rel="prev">
+        <a href="../highlight_code/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 高亮代码" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -565,20 +621,20 @@
               <span class="md-footer__direction">
                 上一页
               </span>
-              与 MD 结合
+              高亮代码
             </div>
           </div>
         </a>
       
       
         
-        <a href="../B/" class="md-footer__link md-footer__link--next" aria-label="下一页: 其他样例" rel="next">
+        <a href="../f__k_discuss/" class="md-footer__link md-footer__link--next" aria-label="下一页: 炸帖" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 下一页
               </span>
-              其他样例
+              炸帖
             </div>
           </div>
           <div class="md-footer__button md-icon">

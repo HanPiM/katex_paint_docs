@@ -10,32 +10,32 @@
 其实是复刻 [Collapsible Blocks](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#removing-the-title) 。
 
 === "演示"
-    --8<-- "examples/appendix/B_note.txt"
+    --8<-- "examples/appendix/other_examples/note.txt"
 
 === "源码"
     ```latex
-    --8<-- "examples/appendix/B_note.txt"
+    --8<-- "examples/appendix/other_examples/note.txt"
     ```
 
 ### 伪窗口
 
 === "演示"
-    --8<-- "examples/appendix/B_fakewin.txt"
+    --8<-- "examples/appendix/other_examples/fakewin.txt"
 
 === "源码"
     ```latex
-    --8<-- "examples/appendix/B_fakewin.txt"
+    --8<-- "examples/appendix/other_examples/fakewin.txt"
     ```
 
 ### 心形曲线
 
 === "演示"
 
-    --8<-- "examples/appendix/B_heart.txt"
+    --8<-- "examples/appendix/other_examples/heart.txt"
 
 === "源码"
     ```latex
-    --8<-- "examples/appendix/B_heart.txt"
+    --8<-- "examples/appendix/other_examples/heart.txt"
     ```
 
 心形部分代码由 [生成器（已停止更新）](https://github.com/HanPiM/katex_complex_img_generator) 制作。
@@ -44,11 +44,11 @@
 
 === "演示"
 
-    --8<-- "examples/appendix/B_CCFlogo.txt"
+    --8<-- "examples/appendix/other_examples/CCFlogo.txt"
 
 === "源码"
     ```latex
-    --8<-- "examples/appendix/B_CCFlogo.txt"
+    --8<-- "examples/appendix/other_examples/CCFlogo.txt"
     ```
 
 !!! note ""
@@ -58,11 +58,11 @@
 
 === "演示"
 
-    --8<-- "examples/appendix/B_MCbell.txt"
+    --8<-- "examples/appendix/other_examples/MCbell.txt"
 
 === "源码"
     ```latex
-    --8<-- "examples/appendix/B_MCbell.txt"
+    --8<-- "examples/appendix/other_examples/MCbell.txt"
     ```
 
 ```py title="生成器"
@@ -103,21 +103,21 @@ print(res)
 
 === "演示"
 
-    --8<-- "examples/appendix/B_lgproblem_cnt.txt"
+    --8<-- "examples/appendix/other_examples/lgproblem_cnt.txt"
 
 === "源码"
     ```latex
-    --8<-- "examples/appendix/B_lgproblem_cnt_for_lg.txt"
+    --8<-- "examples/appendix/other_examples/lgproblem_cnt_for_lg.txt"
     ```
 
 ### 洛谷-咕值信息
 
 === "演示"
 
-    --8<-- "examples/appendix/B_lgguzhi_info.txt"
+    --8<-- "examples/appendix/other_examples/lgguzhi_info.txt"
 
 === "源码"
 
     ```latex
-    --8<-- "examples/appendix/B_lgguzhi_info_for_lg.txt"
+    --8<-- "examples/appendix/other_examples/lgguzhi_info_for_lg.txt"
     ```

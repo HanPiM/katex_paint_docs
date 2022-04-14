@@ -177,4 +177,4 @@ $
 \xcline{10pt}{20pt}
 ```
     
-[复杂示例](../../appendix/B#_3)
+[复杂示例](../../appendix/other_examples/#_3)

@@ -83,9 +83,10 @@ nav:
   - 绘制: main/draw.md
   - 与 MD 结合: main/withlink.md
   - 附录:
-    - 讨论区无法使用的命令: appendix/A.md
-    - 其他样例: appendix/B.md
-    - 高亮代码: appendix/C.md
-    - KaTeX 单位（转pt）: appendix/D.md
+    - 讨论区无法使用的命令: appendix/cmd_cantuse.md
+    - 高亮代码: appendix/highlight_code.md
+    - KaTeX 单位（转pt）: appendix/katex_unit.md
+    - 炸帖: appendix/f__k_discuss.md
+    - 其他样例: appendix/other_examples.md
     - 参考资料: appendix/references.md
     - 更新日志与计划事项: appendix/changes.md
