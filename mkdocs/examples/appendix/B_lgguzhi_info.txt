@@ -1,0 +1,35 @@
+$
+\def\title{\textbf{\color{#e67e22}HanPi} 的咕值信息}
+\def\valA{5}
+\def\valB{71}
+\def\valC{100}
+\def\valD{100}
+\def\valE{44}
+\def\outnum#1{\kern{1pt}\tiny\sf^{#1分}}
+\def\strip#1#2{
+{\color{#2}
+\LARGE\bullet
+\kern{-3.7pt}
+\rule[1px]{#1}{6.15pt}
+\kern{-3.7pt}
+\LARGE\bullet}%\kern{-#1}\kern{-5.9pt}
+}
+\def\tmp{
+  \rule[-45pt]{20000sp}{45pt}\kern{-20000sp}
+  \rule{20000sp}{45pt}\kern{-20000sp}\kern{50pt}
+}
+\def\cb{\color{black}\tiny}
+\raisebox{45pt}{\textsf{\title}\kern{-114514pt}}
+\kern{38pt}
+\color{EEEDED}
+\tmp\kern{5pt}\tmp\tmp
+\large\color{black}\kern{-200pt}
+\def\make#1#2#3{\tiny\textsf{#1} & \strip{#2 pt}{#3} \outnum{#2}\newline}
+\begin{array}{ll}
+  \make{基础信用}{\valA}{52c41a}
+  \make{练习情况}{\valB}{52c41a}
+  \make{社区贡献}{\valC}{52c41a}
+  \make{比赛情况}{\valD}{52c41a}
+  \make{获得成就}{\valE}{52C41A}
+\end{array}
+$

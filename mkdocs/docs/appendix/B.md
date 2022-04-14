@@ -40,7 +40,7 @@
 
 心形部分代码由 [生成器（已停止更新）](https://github.com/HanPiM/katex_complex_img_generator) 制作。
 
-### €€￡ Logo
+### €€£ Logo
 
 === "演示"
 
@@ -52,7 +52,7 @@
     ```
 
 !!! note ""
-    ~~为了防止被 D，说一下，~~ €€￡团里那个就是我画的：[洛谷-画了个协会标志](https://www.luogu.com.cn/discuss/415288)
+    ~~为了防止被 D，说一下，~~ €€£ 团里那个就是我画的：[洛谷-画了个协会标志](https://www.luogu.com.cn/discuss/415288)
 
 ### 像素画 - 钟
 
@@ -98,3 +98,26 @@ res+='$'
 
 print(res)
 ```
+
+### 洛谷-做题情况
+
+=== "演示"
+
+    --8<-- "examples/appendix/B_lgproblem_cnt.txt"
+
+=== "源码"
+    ```latex
+    --8<-- "examples/appendix/B_lgproblem_cnt_for_lg.txt"
+    ```
+
+### 洛谷-咕值信息
+
+=== "演示"
+
+    --8<-- "examples/appendix/B_lgguzhi_info.txt"
+
+=== "源码"
+
+    ```latex
+    --8<-- "examples/appendix/B_lgguzhi_info_for_lg.txt"
+    ```

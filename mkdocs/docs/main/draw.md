@@ -24,12 +24,11 @@
     --8<-- "examples/main/draw_roundrc.txt"
 
     </div>
-      
+    
 ??? example "例-信息角标"
 
     这个比较容易实现，使用 两个圆 + 一个矩形 就可以画出。
 
-    
     ```latex
     --8<-- "examples/main/draw_infobadage.txt"
     ```
@@ -38,6 +37,8 @@
     --8<-- "examples/main/draw_infobadage.txt"
 
     </div>
+
+    [复杂示例](../../appendix/B/#-_1)
 
 ??? example "例-简单提示框"
 
