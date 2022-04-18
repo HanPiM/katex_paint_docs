@@ -54,6 +54,70 @@
         --8<-- "examples/main/draw_simpnote.txt"
         ```
 
+### 对图形进行加减
+
+
+- 加：相同颜色堆叠
+- 减：背景颜色堆叠
+
+=== "演示"
+
+    $
+    \color{black}\Huge\bullet\kern{-10pt}
+    \color{white}{\bullet}\kern{-13pt}
+    \color{black}\bullet
+    \Huge\bigstar\kern{-21pt}
+    \color{white}{\bigstar}\kern{-22pt}
+    \color{black}\bigstar
+    \Huge\bigstar\kern{-19pt}
+    \Large\color{white}
+    \raisebox{1.5pt}{★}
+    $
+
+    $
+    \kern{2pt}
+    \color{black}\small
+    \raisebox{-3pt}{\bf{⊥}}
+    \kern{-10.5pt}
+    \color{black}\Huge\circ
+    \color{white}\kern{-16pt}\rule[6.5pt]{12pt}{10pt}
+    \kern{-10.6pt}\color{black}
+    \LARGE\raisebox{2.3pt}{∙}
+    \kern{-8.5pt}\raisebox{6pt}{∙}\kern{-7.8pt}
+    \rule[6pt]{6.8pt}{4pt}\kern{-6.5pt}
+    \color{red}\xcancel{\phantom{\rule[-2pt]{6pt}{15pt}}}
+    $
+
+=== "源码"
+
+    ```latex
+    $
+    \color{black}\Huge\bullet\kern{-10pt}
+    \color{white}{\bullet}\kern{-13pt}
+    \color{black}\bullet
+    \Huge\bigstar\kern{-21pt}
+    \color{white}{\bigstar}\kern{-22pt}
+    \color{black}\bigstar
+    \Huge\bigstar\kern{-19pt}
+    \Large\color{white}
+    \raisebox{1.5pt}{★}
+    $
+
+    $
+    \kern{2pt}
+    \color{black}\small
+    \raisebox{-3pt}{\bf{⊥}}
+    \kern{-10.5pt}
+    \color{black}\Huge\circ
+    \color{white}\kern{-16pt}\rule[6.5pt]{12pt}{10pt}
+    \kern{-10.6pt}\color{black}
+    \LARGE\raisebox{2.3pt}{∙}
+    \kern{-8.5pt}\raisebox{6pt}{∙}\kern{-7.8pt}
+    \rule[6pt]{6.8pt}{4pt}\kern{-6.5pt}
+    \color{red}\xcancel{\phantom{\rule[-2pt]{6pt}{15pt}}}
+    $
+    ```
+
 ## 其他
   
 ### 阴影
